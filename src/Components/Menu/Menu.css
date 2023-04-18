@@ -1,0 +1,128 @@
+/* Dropdown Button */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #e5e7eb;
+  width: 263px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  text-align: justify;
+  left: 18px;
+  top: 60px;
+  font-size: unset;
+}
+
+span.text-\[15px\].text-bold.text-black.inline-flex.items-center.p-\[11px_20px\].my-\[8px\].mr-\[15px\].bg-\[\#f3b3b3\].rounded-full.cursor-pointer {
+  font: menu;
+  margin-left: 20px;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  padding: 9px 12px;
+  text-decoration: none;
+  display: block;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+ul.dropdown-menu {
+  left: 263px;
+}
+
+ul.dropdown-menu a {
+  font-weight: 500;
+  font-size: 15px;
+  width: 250px;
+}
+
+a.text-\[15px\].font-semibold.text-white.inline-block.px-\[15px\] {
+  text-decoration: none;
+  font-size: inherit;
+}
+
+.font-semibold {
+  font-weight: 600;
+  font-size: initial;
+}
+
+.dropdown-content .dropdown {
+  margin-left: -1px;
+
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+
+}
+
+
+
+.dropdown-submenu {
+  /* position: relative; */
+}
+
+.dropdown-submenu>.dropdown-menu {
+  /* top: 0; */
+  /* left: 100%; */
+  /* margin-top: -6px; */
+  /* margin-left: -1px; */
+  /* -webkit-border-radius: 0 6px 6px 6px; */
+  /* -moz-border-radius: 0 6px 6px; */
+  /* border-radius: 0 6px 6px 6px; */
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+  /* display: block; */
+}
+
+.dropdown-submenu>a:after {
+  /* display: block; */
+  /* content: " "; */
+  /* float: right; */
+  /* width: 0; */
+  /* height: 0; */
+  /* border-color: transparent; */
+  /* border-style: solid; */
+  /* border-width: 5px 0 5px 5px; */
+  /* border-left-color: #ccc; */
+  /* margin-top: 5px; */
+  /* margin-right: -10px; */
+}
+
+.dropdown-submenu:hover>a:after {
+  /* border-left-color: #fff; */
+}
